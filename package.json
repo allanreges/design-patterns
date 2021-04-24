@@ -16,7 +16,7 @@
     "serve:mega": "nx run mega:serve --port=4500 --open",
     "serve:finale": "concurrently \"npm run serve:socketio\" \"npm run serve:api\" \"npm run serve:mega\"",
     "build": "ng build",
-    "test": "ng test",
+    "test": "ng test ",
     "lint": "nx workspace-lint && ng lint",
     "e2e": "ng e2e",
     "affected:apps": "nx affected:apps",
