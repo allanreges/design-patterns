@@ -99,7 +99,7 @@ export class GameComponent implements OnInit, OnDestroy {
         startWith(this.shipPosition),
         // SOMETHING GOES HERE!
       )
-      .subscribe(position => this.shipPosition = position);
+      //.subscribe(position => this.shipPosition = position);
   }
 
   ngOnDestroy() {
